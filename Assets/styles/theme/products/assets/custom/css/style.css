@@ -1138,7 +1138,7 @@ ul.sf-menu > li, .sf-menu > li > a {
 #header-wrapper-mp {
   /* Main menu for Main Page */ }
   #header-wrapper-mp #site-title {
-    float: left; }
+    text-align: center; }
     #header-wrapper-mp #site-title a {
       text-decoration: none; }
       #header-wrapper-mp #site-title a h1 {
@@ -1152,7 +1152,11 @@ ul.sf-menu > li, .sf-menu > li > a {
             font-size: 42px;
             margin-left: 0px; }
   #header-wrapper-mp #main-menu {
-    float: right;
+    main-menu: border-width; 
+    background-color:  background-image: -webkit-gradient(linear, left top, left bottom, from(start-color), to(end-color));
+    background-image: -webkit-linear-gradient(top, start-color, end-color);
+    background-image: -moz-linear-gradient(top, start-color, end-color);
+    background-image: linear-gradient(to bottom, start-color, end-color);
     border: none;
     margin-top: 38px; }
     #header-wrapper-mp #main-menu ul {
