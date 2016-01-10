@@ -52,7 +52,7 @@ Media Query
 [2. Blocks]
 */
 .e-block {
-  padding: 130px 0 130px 0; }
+  padding: 30px 0 30px 0; }
 
 .e-block-ins {
   padding: 100px 0 100px 0; }
@@ -81,7 +81,7 @@ Media Query
   .e-block-dark p, .e-block-dark h2, .e-block-dark h3, .e-block-dark h4, .e-block-dark h5 {
     color: #eaeaea; }
   .e-block-dark a, .e-block-dark .infoblock a {
-    color: #fff; }
+    color: #505050; }
     .e-block-dark a:hover, .e-block-dark .infoblock a:hover {
       color: #E84855;
       text-decoration: none; }
